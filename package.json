@@ -20,12 +20,12 @@
   "description": "A Vite plugin to optimize your image assets using Sharp.js and SVGO",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ePotok22/vite-plugin-image-optimizer-remix"
+    "url": "https://github.com/fff-fm-404/vite-plugin-image-optimizer-remix"
   },
   "bugs": {
-    "url": "https://github.com/ePotok22/vite-plugin-image-optimizer-remix/issues"
+    "url": "https://github.com/fff-fm-404/vite-plugin-image-optimizer-remix/issues"
   },
-  "homepage": "https://github.com/ePotok22/vite-plugin-image-optimizer-remix#readme",
+  "homepage": "https://github.com/fff-fm-404/vite-plugin-image-optimizer-remix#readme",
   "keywords": [
     "vite",
     "vite-plugin",
