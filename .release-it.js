@@ -4,14 +4,14 @@ module.exports = {
     requireBranch: 'main',
     commitMessage: 'chore: Release v${version}',
     tagName: 'v${version}',
+    commitArgs: ['-S'], // creates gpg signed commits
+    tagArgs: ['-s'], // creates gpg signed tags
     requireCommits: true, // require commits since last tag
     requireCleanWorkingDir: true, // exits if local not upto date with remote or if workdir is unclean
   },
   github: {
     release: true, // creates a github release
     draft: true, // github releases are only drafted, confirm the draft in github releases page to publish it
-    commitArgs: ['-S'], // creates gpg signed commits
-    tagArgs: ['-s'], // creates gpg signed tags
     releaseName: '✨ v${version}',
     assets: ['tar/*.tgz'],
   },
